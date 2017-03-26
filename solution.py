@@ -70,10 +70,9 @@ def main():
     # sanity check
     print("file contains", len(array), "elemnts")
 
-    array = [1,3,5,2,4,6]
+    # array = [1,3,5,2,4,6]
     result, count = sort_and_count(array)
     print("there are", count, "split inversion")
-    print(result)
 
 if __name__ == '__main__':
     main()
